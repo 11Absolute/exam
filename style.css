@@ -68,15 +68,6 @@ p {
     justify-content: space-between;
 }
 
-.pHeader {
-    padding-left: 0.9rem;
-    font-family: 'Fredoka One', sans-serif;
-    font-size: 1.2rem;
-    line-height: 1.4rem;
-    padding-right: 11rem;
-    width: 210px;
-}
-
 .pWeare {
     padding-top: 1.3rem;
 }
@@ -155,10 +146,6 @@ legend {
         padding: 0rem 9rem;
 
     }
-
-    .pHeader {
-        padding-right: 11rem;
-    }
 }
 
 @media all and (min-width: 576px) {
@@ -173,12 +160,6 @@ legend {
         line-height: 2.3rem;
         padding: 0rem 9rem;
 
-    }
-
-    .pHeader {
-        font-size: 1.4rem;
-        line-height: 1.6rem;
-        padding-right: 9rem;
     }
 }
 
