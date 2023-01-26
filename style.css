@@ -31,9 +31,15 @@ h1 {
 }
 
 h2 {
-    padding: 1.7rem 1.7rem;
+    margin-top: 1.7rem;
+    padding: 0rem 1.7rem;
     font-family: 'Fredoka One', sans-serif;
     text-align: center;
+}
+
+.imgcolor {
+    display: block;
+    margin: 0 auto;
 }
 
 p {
@@ -45,6 +51,10 @@ p {
 
 .pWeare {
     padding-top: 1.3rem;
+}
+
+.pIndent {
+    margin-top: 1.7rem;
 }
 
 fieldset {
