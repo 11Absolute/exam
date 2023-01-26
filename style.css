@@ -1,3 +1,124 @@
 :root {
-    
+    font-size: 62.5%;
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    --aqua-color: #00D5E4;
+    --red-color: #ED2323;
+    --blue-color: #3B3A8F;
+}
+
+*, :before, :after {
+    box-sizing: inherit;
+}
+
+button {
+    background-color: #fff;
+    color: #fff;
+}
+
+h1 {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+h2 {
+    padding: 1.7rem 1.7rem;
+    font-family: 'Fredoka One', sans-serif;
+    text-align: center;
+}
+
+p {
+    font-size: 1.1rem;
+    line-height: 1.4rem;
+    text-align: center;
+    padding: 0 7rem;
+}
+
+.pWeare {
+    padding-top: 1.3rem;
+}
+
+fieldset {
+    font-size: 1.3rem;
+    color: var(--aqua-color);
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+    padding-top: 1rem;
+    text-align: center;
+}
+
+legend {
+    font-size: 2rem;
+    line-height: 2.6rem;
+    text-align: center;
+}
+
+.formh2 {
+    color: #000;
+    font-weight: 700;
+    font-size: 2rem;
+    line-height: 2.6rem;
+    padding-top: 3rem;
+}
+
+.Cform {
+    min-width: 320px;
+    max-width: 40%;
+    margin: 0 auto;
+}
+
+.formgrid {
+    display: grid;
+    justify-content: center;
+}
+
+.input-label {
+    padding-top: 0.3rem;
+    padding-bottom: 0.3rem;
+    color: var(--blue-color);
+    display: block;
+    text-align: left;
+}
+
+.formflex {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.buttonForm {
+    font-size: 1.2rem;
+    padding: 0.3em;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    background-color: #FFFFFF;
+    border-radius: 1px;
+    color: #000;
+}
+
+.buttonForm:hover {
+    background-color: var(--aqua-color);
+}
+
+@media all and (max-width: 768px) {
+    nav {
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        margin: -1px;
+        border: 0;
+        padding: 0;
+        white-space: nowrap;
+        clip-path: inset(100%);
+        clip: rect(0 0 0 0);
+        overflow: hidden;
+    }
 }

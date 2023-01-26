@@ -4,12 +4,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="reseter.css">
+    <link rel="stylesheet" href="style.css">
     
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=DM+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap" rel="stylesheet">
     
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -19,7 +19,61 @@
 </head>
 <body>
     <header>
-        
+        <a href="/"><img src="/img/logo.png" alt="" width="27" height="51"></a>
+        <nav>
+            <ul>
+                <li><a href="/"></a>Mission</li>
+                <li><a href="/"></a>Team</li>
+                <li><a href="/"></a>Products</li>
+                <li><a href="/"></a>Careers</li>
+                <li><a href="/"></a>Contact</li>
+            </ul>
+        </nav>
+        <button><img src="/img/menu.svg" alt="" width="31" height="23"></button>
     </header>
+    <main>
+        <section>
+            <h1>.</h1>
+            <p class="pWeare">We are a community of crypto enthusiasts who believe in technology, a decentralized world based on blockchain technology</p>
+            <h2>The world as we know it is old and boring</h2>
+            <p>Blockchain and decentralization changes everything</p>
+            <img src="/img/color1.png" alt="">
+            <p>We believe that technology and communities are a force that can change our lives. Games for us are a way to build life differently: the ability to create new worlds, new communities, free from centralized institutions</p>
+            <p>This is an opportunity to change this world and build other worlds - according to your rules. This is a breath of fresh air outside the power of states, outside politics</p>
+            <img src="/img/color2.png" alt="">
+            <p>We want to create games that continue to be created and developed together with the gaming community.</p>
+        </section>
+        <section>
+            <h2 class="formh2">Задание 2</h2>
+            <form class="Cform" action="https://httpbin.org/post" name="contact" method="POST">
+                <fieldset>
+                    <legend>Оставьте заявку</legend>
+                    <div class="formgrid">
+                        <label>
+                            <span class="input-label">Name</span>
+                            <input type="text" name="Name" placeholder="Alexander" required>
+                        </label>
+                        <label>
+                            <span class="input-label">Email</span>
+                            <input type="email" name="email" placeholder="alexander@gmail.com">
+                        </label>
+                        <label>
+                            <span class="input-label">Phone</span>
+                            <input type="tel" name="tel" placeholder="+79052537425">
+                        </label>
+                    </div>
+                    <div class="formgrid">
+                        <p class="input-label">Gender</p>
+                        <label><input class="none" type="radio" name="gender" value="1">Мужской</label>
+                        <label><input class="none" type="radio" name="gender" value="2">Женский</label>
+                    </div>
+                    <div class="formflex">
+                        <button class="buttonForm" class="buttonForm:hover" type="submit"><img src="/Img/send.svg" alt="" width="20" height="20">Отправить</button>
+                        <button class="buttonForm" class="buttonForm:hover" type="reset"><img src="/Img/restart.svg" alt="" width="20" height="20"> Очистить</button>
+                    </div>
+                </fieldset>
+            </form>
+        </section>
+    </main>
 </body>
 </html>
