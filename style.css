@@ -44,6 +44,8 @@ h1 {
 h2 {
     margin-top: 1.7rem;
     padding: 0rem 1.7rem;
+    font-size: 1.8rem;
+    line-height: 2.1rem;
     font-family: 'Fredoka One', sans-serif;
     text-align: center;
 }
@@ -71,7 +73,8 @@ p {
     font-family: 'Fredoka One', sans-serif;
     font-size: 1.2rem;
     line-height: 1.4rem;
-    padding-right: 12rem;
+    padding-right: 11rem;
+    width: 210px;
 }
 
 .pWeare {
@@ -143,8 +146,55 @@ legend {
     background-color: var(--aqua-color);
 }
 
-@media all and (min-width: 460px) {
-    
+@media all and (min-width: 425px) {
+    p {
+        padding: 0 11.2rem;
+    }
+
+    h2 {
+        padding: 0rem 9rem;
+
+    }
+
+    .pHeader {
+        padding-right: 11rem;
+    }
+}
+
+@media all and (min-width: 576px) {
+    p {
+        font-size: 1.3rem;
+        line-height: 1.6rem;
+        padding: 0 11.2rem;
+    }
+
+    h2 {
+        font-size: 2rem;
+        line-height: 2.3rem;
+        padding: 0rem 9rem;
+
+    }
+
+    .pHeader {
+        font-size: 1.4rem;
+        line-height: 1.6rem;
+        padding-right: 9rem;
+    }
+}
+
+@media all and (min-width: 768px) {
+    .buttonhidden {
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        margin: -1px;
+        border: 0;
+        padding: 0;
+        white-space: nowrap;
+        clip-path: inset(100%);
+        clip: rect(0 0 0 0);
+        overflow: hidden;
+    }
 }
 
 @media all and (max-width: 768px) {
