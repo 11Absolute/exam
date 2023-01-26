@@ -12,9 +12,20 @@
     box-sizing: inherit;
 }
 
+li {
+    list-style-type: none;
+}
+
+a {
+    display: inline-block;
+    padding: 0.9rem 0rem;
+    padding-left: 1.8rem;
+}
+
 button {
-    background-color: #fff;
-    color: #fff;
+    background-color: #FFFFFF;
+    color: #FFFFFF;
+    padding-right: 1.8rem;
 }
 
 h1 {
@@ -49,6 +60,20 @@ p {
     padding: 0 7rem;
 }
 
+.pflex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.pHeader {
+    padding-left: 0.9rem;
+    font-family: 'Fredoka One', sans-serif;
+    font-size: 1.2rem;
+    line-height: 1.4rem;
+    padding-right: 12rem;
+}
+
 .pWeare {
     padding-top: 1.3rem;
 }
@@ -73,10 +98,11 @@ legend {
 }
 
 .formh2 {
-    color: #000;
     font-weight: 700;
     font-size: 2rem;
     line-height: 2.6rem;
+    color: #000;
+    margin: 0;
     padding-top: 3rem;
 }
 
@@ -109,13 +135,16 @@ legend {
     padding: 0.3em;
     margin-top: 1rem;
     margin-bottom: 1rem;
-    background-color: #FFFFFF;
     border-radius: 1px;
     color: #000;
 }
 
 .buttonForm:hover {
     background-color: var(--aqua-color);
+}
+
+@media all and (min-width: 460px) {
+    
 }
 
 @media all and (max-width: 768px) {
